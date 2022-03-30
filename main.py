@@ -11,7 +11,8 @@ def caesar_shift(text, n):
 def mysum(sequence):
     # from functools import reduce
     # return reduce(lambda x, y: x + y, sequence)
-    return sequence[0] if len(sequence) == 1 else sequence[0] + mysum(sequence[1::])
+    # return sequence[0] if len(sequence) == 1 else sequence[0] + mysum(sequence[1::])
+    return [j for j in [0] for i in sequence for j in [j + i]][-1]
 
 
 if __name__ == '__main__':
