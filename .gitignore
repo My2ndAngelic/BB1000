@@ -3,6 +3,9 @@ git-2022-04-01
 # Created by https://www.toptal.com/developers/gitignore/api/pycharm+all,windows,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=pycharm+all,windows,macos
 
+# DO NOT UPLOAD #
+assets/
+
 ### macOS ###
 # General
 .DS_Store
